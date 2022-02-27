@@ -1,0 +1,33 @@
+nav{
+    columns: 12; 
+}
+container-fluid{
+    columns: 12; 
+    margin: auto;
+}
+img{
+    width: 40px;
+}
+.card-text{
+    padding: 10px 8px;
+    width: 90px;
+    color: #fff;
+    background: mediumblue;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.card-text a{
+    text-decoration: none;
+    color: white;
+}
+.card-text:hover{
+    background: rgb(45, 45, 124);
+    transition: background 1s;
+
+}
+.card-title{
+    text-align: center;
+}
